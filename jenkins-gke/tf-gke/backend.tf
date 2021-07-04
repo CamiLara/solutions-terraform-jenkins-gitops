@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "desafio-equifax-tfstate"
     prefix = "jenkins"
   }
 }
